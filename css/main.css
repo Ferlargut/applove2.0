@@ -89,6 +89,39 @@ footer{
 img{
   width: 100px;
 }
-.imgwork{
+.imgwork:hover {opacity: 0.7;}
+
+.imgwork{  
   width: 78%;
+}
+.modal {
+    display: none;
+    background: gray;       
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+.modalimagenes {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px; 
+    margin-top: 30px;
+    border: 20px solid seashell;
+}
+#close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+#close:hover,
+#close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
 }
